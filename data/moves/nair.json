@@ -1,0 +1,90 @@
+{
+  "name": "nair",
+  "frames": 5,
+  "damage": 8.0,
+  "where": "air",
+  "reset": "ground",
+  "reset_delay": 5,
+  "changeable": false,
+  "direction": "right",
+  "controlled": false,
+  "force": {
+    "x": 2.0,
+    "y": 2.0
+  },
+  "additive_force": {
+    "x": true,
+    "y": false
+  },
+  "knockback": {
+    "x": 1.5,
+    "y": 1.5
+  },
+  "hitboxes": [
+    {
+      "type": "offense",
+      "pos": {
+        "x": 10.0,
+        "y": 0.0
+      },
+      "width": 15.0,
+      "height": 15.0
+    },
+    {
+      "type": "neutral",
+      "pos": {
+        "x": 0.0,
+        "y": 4.0
+      },
+      "width": 16.0,
+      "height": 30.0
+    }
+  ],
+  "animation": {
+    "looped": false,
+    "frames": [
+      {
+        "neck": {
+          "x": 0.0,
+          "y": 15.0
+        },
+        "elbow_left": {
+          "x": -4.0,
+          "y": 10.0
+        },
+        "elbow_right": {
+          "x": 7.0,
+          "y": 13.0
+        },
+        "hand_left": {
+          "x": 2.0,
+          "y": 10.0
+        },
+        "hand_right": {
+          "x": 14.0,
+          "y": 12.0
+        },
+        "waist": {
+          "x": 4.0,
+          "y": 2.0
+        },
+        "knee_left": {
+          "x": 2.0,
+          "y": -2.0
+        },
+        "knee_right": {
+          "x": 4.0,
+          "y": 2.0
+        },
+        "foot_left": {
+          "x": 8.0,
+          "y": -2.0
+        },
+        "foot_right": {
+          "x": 14.0,
+          "y": 2.0
+        }
+      }
+    ]
+  }
+}

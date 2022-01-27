@@ -1,0 +1,81 @@
+{
+  "name": "crouch",
+  "frames": 10,
+  "damage": 0.0,
+  "where": "any",
+  "reset": "any",
+  "reset_delay": 0,
+  "changeable": true,
+  "direction": "any",
+  "controlled": false,
+  "force": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "additive_force": {
+    "x": true,
+    "y": true
+  },
+  "knockback": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "hitboxes": [
+    {
+      "type": "neutral",
+      "pos": {
+        "x": 0.0,
+        "y": -4.0
+      },
+      "width": 16.0,
+      "height": 15.0
+    }
+  ],
+  "animation": {
+    "looped": true,
+    "frames": [
+      {
+        "neck": {
+          "x": 0.0,
+          "y": 2.0
+        },
+        "elbow_left": {
+          "x": -6.0,
+          "y": 0.0
+        },
+        "elbow_right": {
+          "x": 6.0,
+          "y": 0.0
+        },
+        "hand_left": {
+          "x": -8.0,
+          "y": -6.0
+        },
+        "hand_right": {
+          "x": 8.0,
+          "y": -6.0
+        },
+        "waist": {
+          "x": 0.0,
+          "y": -8.0
+        },
+        "knee_left": {
+          "x": -6.0,
+          "y": -6.0
+        },
+        "knee_right": {
+          "x": 6.0,
+          "y": -6.0
+        },
+        "foot_left": {
+          "x": -10.0,
+          "y": -10.0
+        },
+        "foot_right": {
+          "x": 10.0,
+          "y": -10.0
+        }
+      }
+    ]
+  }
+}

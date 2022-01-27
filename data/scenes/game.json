@@ -1,0 +1,43 @@
+{
+  "name": "game",
+  "elements": [
+    {
+      "name": "game",
+      "type": "game",
+      "file": "data/basic_level.json",
+      "continue_button": "continue_button"
+    },
+    {
+      "name": "continue_button",
+      "type": "button",
+      "text": "continue",
+      "text_size": 16.0,
+      "show": false,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "color_hover": [
+        255,
+        255,
+        255
+      ],
+      "text_color": [
+        255,
+        255,
+        255
+      ],
+      "text_color_hover": [
+        0,
+        0,
+        0
+      ],
+      "x": 200,
+      "y": 300,
+      "width": 200,
+      "height": 40,
+      "onclick": "goto_start"
+    }
+  ]
+}

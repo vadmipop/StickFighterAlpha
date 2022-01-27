@@ -1,0 +1,4 @@
+(library
+ (name graphics)
+ (public_name Graphics)
+ (libraries sdl2 Yojson))

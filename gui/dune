@@ -1,0 +1,4 @@
+(library
+ (name gui)
+ (public_name Gui)
+ (libraries sdl2 Game Yojson Graphics))

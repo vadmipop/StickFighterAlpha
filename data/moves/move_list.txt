@@ -1,0 +1,39 @@
+Move List: 
+
+(reference document for what moves in the game do)
+
+"punch": A standard punch.  Can only be done on the ground. Input : K on the ground (facing either direction)
+
+"dtilt": A sweep attack.  Can only be done on the ground.  Causes the character to duck slightly and
+    hits the opponent upward, allowing for follow up moves in the air. 
+    Input: S + K on the ground (either direction)
+
+"slide": A sliding punch.  Can only be done on the ground.  The user lunges forward and punches the opponent.
+    Has good knockback and can allow for early KOs
+    Input : D/A + J on the ground (D sends the character right, A sends the character left)
+
+"nair": An aerial kick.  Can only be done in the air.  (nair stands for "neutral aerial", ie no direction + k in the air)
+    Input: K in the air (either direction)
+
+"fair": An aerial attack that sends the opponent down.  Can only be done in the air.  Somewhat hard to 
+    hit, but if the opponent is hit by this move offstage, it will be very difficult to recover.  Can also be
+    used as a recovery move.
+    (fair stands for "forward aerial", ie forward + k in the air)
+    Input: D/A + K in the air (D attacks to the right, A attacks to the left)
+
+"uppercut": An aerial uppercut reminiscient of the Shoryuken in Street Fighter.  Can only be done in the air.
+    A powerful attack that launches the opponent upward.
+    Input: W + J in the air (either direction)
+
+"down slam": A move in which the user slams into the ground.  Can only be used in the air.  Has a lot of recovery time,
+    but does a lot of damage.
+    Input: S + K in the air (either direction)
+
+"double_jump": An extra jump in the air.  Allows the player to recover from farther and get up to higher platforms and 
+    structures.
+    Input: W in the air
+
+"block": A simple parry.  The user avoids damage for a short time and pushes back any attackers a short distance.
+    Input: L
+
+"tpose": A simple taunt.  Input: P

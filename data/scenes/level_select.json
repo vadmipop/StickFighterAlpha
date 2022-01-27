@@ -1,0 +1,287 @@
+{
+  "name": "level_select",
+  "elements": [
+    {
+      "type": "text",
+      "text": "select",
+      "text_size": 48.0,
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "x": 304,
+      "y": 64
+    },
+    {
+      "type": "button",
+      "text": "stage 1",
+      "text_size": 16.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 80,
+      "y": 130,
+      "width": 130,
+      "height": 40,
+      "onclick": "select_stage1"
+    },
+    {
+      "type": "button",
+      "text": "stage 2",
+      "text_size": 16.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 235,
+      "y": 130,
+      "width": 130,
+      "height": 40,
+      "onclick": "select_stage2"
+    },
+    {
+      "type": "button",
+      "text": "stage 3",
+      "text_size": 16.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 390,
+      "y": 130,
+      "width": 130,
+      "height": 40,
+      "onclick": "select_stage3"
+    },
+    {
+      "name": "select_rect",
+      "type": "rect",
+      "x": 75,
+      "y": 125,
+      "width": 140,
+      "height": 50,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "button",
+      "text": "Big Red",
+      "text_size": 16.0,
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 80,
+      "y": 210,
+      "width": 130,
+      "height": 40,
+      "onclick": "select_red"
+    },
+    {
+      "type": "button",
+      "text": "leblueski",
+      "text_size": 12.0,
+      "color": [
+        0,
+        0,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 235,
+      "y": 210,
+      "width": 130,
+      "height": 40,
+      "onclick": "select_blue"
+    },
+    {
+      "type": "button",
+      "text": "Greenie",
+      "text_size": 16.0,
+      "color": [
+        0,
+        180,
+        0
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 390,
+      "y": 210,
+      "width": 130,
+      "height": 40,
+      "onclick": "select_green"
+    },
+    {
+      "name": "select_color_rect",
+      "type": "rect",
+      "x": 75,
+      "y": 205,
+      "width": 140,
+      "height": 50,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "play_button",
+      "type": "button",
+      "text": "play",
+      "text_size": 16.0,
+      "show": true,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 320,
+      "y": 300,
+      "width": 100,
+      "height": 40,
+      "onclick": "play_game"
+    },
+    {
+      "name": "back_button",
+      "type": "button",
+      "text": "back",
+      "text_size": 16.0,
+      "show": true,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 180,
+      "y": 300,
+      "width": 100,
+      "height": 40,
+      "onclick": "goto_start"
+    }
+  ]
+}

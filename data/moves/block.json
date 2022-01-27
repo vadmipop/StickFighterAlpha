@@ -1,0 +1,90 @@
+{
+  "name": "block",
+  "frames": 30,
+  "damage": 0.0,
+  "where": "ground",
+  "reset": "any",
+  "reset_delay": 0,
+  "changeable": true,
+  "direction": "any",
+  "controlled": false,
+  "force": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "additive_force": {
+    "x": true,
+    "y": true
+  },
+  "knockback": {
+    "x": -3.0,
+    "y": 0.5
+  },
+  "hitboxes": [
+    {
+      "type": "defense",
+      "pos": {
+        "x": 0.0,
+        "y": 4.0
+      },
+      "width": 16.0,
+      "height": 30.0
+    },
+    {
+      "type": "offense",
+      "pos": {
+        "x": 0.0,
+        "y": 4.0
+      },
+      "width": 16.0,
+      "height": 30.0
+    }
+  ],
+  "animation": {
+    "looped": true,
+    "frames": [
+      {
+        "neck": {
+          "x": 0.0,
+          "y": 16.0
+        },
+        "elbow_left": {
+          "x": -4.0,
+          "y": 14.0
+        },
+        "elbow_right": {
+          "x": 4.0,
+          "y": 14.0
+        },
+        "hand_left": {
+          "x": -9.0,
+          "y": 14.0
+        },
+        "hand_right": {
+          "x": 9.0,
+          "y": 14.0
+        },
+        "waist": {
+          "x": 0.0,
+          "y": 4.0
+        },
+        "knee_left": {
+          "x": -3.0,
+          "y": -2.0
+        },
+        "knee_right": {
+          "x": 3.0,
+          "y": -2.0
+        },
+        "foot_left": {
+          "x": -6.0,
+          "y": -10.0
+        },
+        "foot_right": {
+          "x": 6.0,
+          "y": -10.0
+        }
+      }
+    ]
+  }
+}

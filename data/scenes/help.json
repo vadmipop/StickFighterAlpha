@@ -1,0 +1,119 @@
+{
+  "name": "help",
+  "elements": [
+    {
+      "type": "text",
+      "text": "controls",
+      "text_size": 36.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 304,
+      "y": 40
+    },
+    {
+      "type": "text",
+      "text": "a / d - left / right",
+      "text_size": 18.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 300,
+      "y": 120
+    },
+    {
+      "type": "text",
+      "text": "w - jump",
+      "text_size": 18.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 300,
+      "y": 150
+    },
+    {
+      "type": "text",
+      "text": "d - duck",
+      "text_size": 18.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 300,
+      "y": 180
+    },
+    {
+      "type": "text",
+      "text": "k / J - attack",
+      "text_size": 18.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 300,
+      "y": 210
+    },
+    {
+      "type": "text",
+      "text": "L - defend",
+      "text_size": 18.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 300,
+      "y": 240
+    },
+    {
+      "type": "text",
+      "text": "Combine attacks with different directions",
+      "text_size": 14.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 300,
+      "y": 290
+    },
+    {
+      "type": "button",
+      "text": "back",
+      "text_size": 14.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 225,
+      "y": 330,
+      "width": 150,
+      "height": 40,
+      "onclick": "goto_start"
+    }
+  ]
+}

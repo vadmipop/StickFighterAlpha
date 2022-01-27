@@ -1,0 +1,80 @@
+{
+  "name": "basic level",
+  "platforms": [
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 100.0,
+      "height": 20.0,
+      "center": {
+        "x": 180.0,
+        "y": 120.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 100.0,
+      "height": 20.0,
+      "center": {
+        "x": 420.0,
+        "y": 120.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 500.0,
+      "height": 30.0,
+      "center": {
+        "x": 300.0,
+        "y": 30.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 40.0,
+      "height": 20.0,
+      "center": {
+        "x": 420.0,
+        "y": 210.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 40.0,
+      "height": 20.0,
+      "center": {
+        "x": 180.0,
+        "y": 210.0
+      }
+    }
+  ],
+  "figures": [
+    {
+      "type": "custom",
+      "position": {
+        "x": 180.0,
+        "y": 230.0
+      }
+    },
+    {
+      "type": "file",
+      "file": "cpu.json",
+      "position": {
+        "x": 420.0,
+        "y": 230.0
+      }
+    }
+  ],
+  "death": {
+    "center": {
+      "x": 300.0,
+      "y": 200.0
+    },
+    "width": 1000.0,
+    "height": 700.0
+  }
+}

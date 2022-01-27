@@ -1,0 +1,101 @@
+{
+  "name": "start",
+  "elements": [
+    {
+      "type": "text",
+      "text": "stick fighter",
+      "text_size": 36.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 304,
+      "y": 91
+    },
+    {
+      "type": "text",
+      "text": "alpha",
+      "text_size": 30.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "x": 304,
+      "y": 150
+    },
+    {
+      "type": "rect",
+      "x": 50,
+      "y": 58,
+      "width": 500,
+      "height": 128,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "button",
+      "text": "play",
+      "text_size": 16.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 225,
+      "y": 240,
+      "width": 150,
+      "height": 40,
+      "onclick": "goto_select"
+    },
+    {
+      "type": "button",
+      "text": "help",
+      "text_size": 16.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "color_hover": [
+        0,
+        0,
+        0
+      ],
+      "text_color": [
+        0,
+        0,
+        0
+      ],
+      "text_color_hover": [
+        255,
+        255,
+        255
+      ],
+      "x": 225,
+      "y": 300,
+      "width": 150,
+      "height": 40,
+      "onclick": "goto_help"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "key": [
+      "W"
+    ],
+    "move": "double_jump",
+    "direction": "none",
+    "consumed": false
+  },
+  {
+    "key": [
+      "W"
+    ],
+    "move": "jump",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "A"
+    ],
+    "move": "run",
+    "direction": "left",
+    "consumed": false
+  },
+  {
+    "key": [
+      "D"
+    ],
+    "move": "run",
+    "direction": "right",
+    "consumed": false
+  },
+  {
+    "key": [
+      "A"
+    ],
+    "move": "move_air",
+    "direction": "left",
+    "consumed": false
+  },
+  {
+    "key": [
+      "D"
+    ],
+    "move": "move_air",
+    "direction": "right",
+    "consumed": false
+  },
+  {
+    "key": [
+      "S"
+    ],
+    "move": "crouch",
+    "direction": "none",
+    "consumed": false
+  },
+  {
+    "key": [
+      "K"
+    ],
+    "move": "punch",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "J"
+    ],
+    "move": "uppercut",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "K"
+    ],
+    "move": "nair",
+    "direction": "any",
+    "consumed": true
+  },
+  
+  {
+    "key": [
+      "S",
+      "K"
+    ],
+    "move": "down tilt",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "S",
+      "K"
+    ],
+    "move": "down slam",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "D",
+      "K"
+    ],
+    "move": "fair",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "A",
+      "K"
+    ],
+    "move": "fair",
+    "direction": "none",
+    "consumed": true
+  },
+  {
+    "key": [
+      "J",
+      "D"
+    ],
+    "move": "slide",
+    "direction": "none",
+    "consumed": false
+  },
+  {
+    "key": [
+      "J",
+      "A"
+    ],
+    "move": "slide",
+    "direction": "none",
+    "consumed": false
+  },
+  {
+    "key": [
+      "P"
+    ],
+    "move": "tpose",
+    "direction": "none",
+    "consumed": false
+  },
+  {
+    "key":[
+      "L"
+    ],
+    "move": "block",
+    "direction": "right",
+    "consumed": true
+  },
+  {
+    "key":[
+      "L"
+    ],
+    "move": "block",
+    "direction": "left",
+    "consumed": true
+  }
+]

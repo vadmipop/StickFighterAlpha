@@ -1,0 +1,69 @@
+{
+    "name": "CPU",
+    "direction": "right",
+    "hitboxes": [
+        {
+            "width": 16.0,
+            "height": 30.0,
+            "center": {
+                "x": 0.0,
+                "y": 5.0
+            }
+        }
+    ],
+    "color": [
+        0,
+        0,
+        0
+    ],
+    "moves": [
+        {
+            "type": "file",
+            "file": "moves/empty_move.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/move_left.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/move_left_air.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/move_jump.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/move_crouch.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/basic_attack.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/nair.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/slide_attack.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/uppercut.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/dtilt.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/down_slam.json"
+        },
+        {
+            "type": "file",
+            "file": "moves/fair_spike.json"
+        }
+    ]
+}

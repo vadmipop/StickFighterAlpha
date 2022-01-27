@@ -1,0 +1,126 @@
+{
+  "name": "basic level",
+  "platforms": [
+    {
+      "name": "platform 1",
+      "type": "poly",
+      "points": [
+        {
+          "x": 50.0,
+          "y": -50.0
+        },
+        {
+          "x": -50.0,
+          "y": -50.0
+        },
+        {
+          "x": 0.0,
+          "y": 20.0
+        }
+      ],
+      "center": {
+        "x": 300.0,
+        "y": 150.0
+      }
+    },
+    {
+      "name": "platform 2",
+      "type": "poly",
+      "points": [
+        {
+          "x": 25.0,
+          "y": -50.0
+        },
+        {
+          "x": -25.0,
+          "y": -50.0
+        },
+        {
+          "x": -25.0,
+          "y": 100.0
+        }
+      ],
+      "center": {
+        "x": 75.0,
+        "y": 200.0
+      }
+    },
+    {
+      "name": "platform 3",
+      "type": "poly",
+      "points": [
+        {
+          "x": -25.0,
+          "y": -50.0
+        },
+        {
+          "x": 25.0,
+          "y": 100.0
+        },
+        {
+          "x": 25.0,
+          "y": -50.0
+        }
+      ],
+      "center": {
+        "x": 525.0,
+        "y": 200.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 60.0,
+      "height": 20.0,
+      "center": {
+        "x": 180.0,
+        "y": 250.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 60.0,
+      "height": 20.0,
+      "center": {
+        "x": 420.0,
+        "y": 250.0
+      }
+    },
+    {
+      "name": "ground",
+      "type": "rect",
+      "width": 500.0,
+      "height": 30.0,
+      "center": {
+        "x": 300.0,
+        "y": 30.0
+      }
+    }
+  ],
+  "figures": [
+    {
+      "type": "custom",
+      "position": {
+        "x": 200.0,
+        "y": 150.0
+      }
+    },
+    {
+      "type": "file",
+      "file": "cpu.json",
+      "position": {
+        "x": 400.0,
+        "y": 150.0
+      }
+    }
+  ],
+  "death": {
+    "center": {
+      "x": 300.0,
+      "y": 200.0
+    },
+    "width": 1000.0,
+    "height": 700.0
+  }
+}

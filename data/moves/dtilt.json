@@ -1,0 +1,90 @@
+{
+  "name": "down tilt",
+  "frames": 5,
+  "damage": 5.0,
+  "where": "ground",
+  "reset": "ground",
+  "reset_delay": 6,
+  "changeable": false,
+  "direction": "right",
+  "controlled": false,
+  "force": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "additive_force": {
+    "x": true,
+    "y": true
+  },
+  "knockback": {
+    "x": 1.0,
+    "y": 2.0
+  },
+  "hitboxes": [
+    {
+      "type": "offense",
+      "pos": {
+        "x": 10.0,
+        "y": -6.0
+      },
+      "width": 15.0,
+      "height": 8.0
+    },
+    {
+      "type": "neutral",
+      "pos": {
+        "x": 0.0,
+        "y": 4.0
+      },
+      "width": 16.0,
+      "height": 30.0
+    }
+  ],
+  "animation": {
+    "looped": false,
+    "frames": [
+      {
+        "neck": {
+          "x": -10.0,
+          "y": -3.0
+        },
+        "elbow_left": {
+          "x": -8.0,
+          "y": -7.0
+        },
+        "elbow_right": {
+          "x": 0.0,
+          "y": -3.0
+        },
+        "hand_left": {
+          "x": -6.0,
+          "y": -9.0
+        },
+        "hand_right": {
+          "x": 2.0,
+          "y": -2.0
+        },
+        "waist": {
+          "x": 2.0,
+          "y": -6.0
+        },
+        "knee_left": {
+          "x": 0.0,
+          "y": -8.0
+        },
+        "knee_right": {
+          "x": 6.0,
+          "y": -8.0
+        },
+        "foot_left": {
+          "x": -4.0,
+          "y": -10.0
+        },
+        "foot_right": {
+          "x": 12.0,
+          "y": -10.0
+        }
+      }
+    ]
+  }
+}
