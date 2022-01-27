@@ -1,4 +1,4 @@
-# FinalProject_3110
+# CS3110_FinalProject
 
 This is the final project for CS 3110 of our team: Questin Chance McQuilkin, Ronan Everett, Vadim Popov. 
 
