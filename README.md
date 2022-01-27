@@ -1,6 +1,6 @@
 # FinalProject_3110
 
-This is our final project for 3110, final release.
+This is the final project for CS 3110 of our team: Questin Chance McQuilkin, Ronan Everett, Vadim Popov. 
 
 It can be run with "make play" after following the installation instruction in INSTALL.md.
 
