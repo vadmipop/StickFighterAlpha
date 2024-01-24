@@ -1,7 +1,7 @@
-# CS3110_FinalProject
+# Stick Fighter Game
 
-This is the final project for CS 3110 of our team: Questin Chance McQuilkin, Ronan Everett, Vadim Popov. 
+A 2D stick fighter game with level and character selection
 
-It can be run with "make play" after following the installation instruction in INSTALL.md.
+It can be run with "make play" after following installation instructions in INSTALL.md
 
 A full list of moves can be found in data/moves/move_list.txt
